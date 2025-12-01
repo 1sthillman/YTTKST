@@ -45,3 +45,7 @@ Dağıtımdan önce aşağıdaki dosyaların güncel olduğundan emin olun:
 ## Ek Bilgi
 
 Program; Windows 7, 8, 10 ve 11 işletim sistemlerinde çalışır. Kullanıcıların sadece ZIP dosyasını indirip kurulum sihirbazını çalıştırması yeterlidir.
+
+## GitHub Pages
+
+Proje GitHub Pages'de yayınlanmaktadır: [https://1sthillman.github.io/YTTKST/](https://1sthillman.github.io/YTTKST/)
