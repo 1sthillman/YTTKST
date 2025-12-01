@@ -1,0 +1,10 @@
+# YouTube Mezat Yardımcısı için gerekli paketler
+chat-downloader>=0.1.8
+requests>=2.25.1
+customtkinter>=4.6.3
+pygame>=2.0.1
+Pillow>=8.2.0
+beautifulsoup4>=4.9.3
+websocket-client>=1.2.1
+supabase>=2.20.0
+websockets>=15.0.1

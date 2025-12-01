@@ -1,0 +1,80 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║         🎯 YouTube Mezat Yardımcısı v2.0 🎯                ║
+║                                                              ║
+║                MÜŞTERİ KURULUM TALİMATLARI                  ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+🚀 TEK TIKLA KURULUM (ÖNEMLİ: YENİ SÜRÜM KULLANIN)
+═══════════════════════════════════════════════════════════════
+
+1. "YouTube_Mezat_Yardimcisi_Setup_v2.exe" dosyasına ÇİFT TIKLAYIN
+2. "İleri > İleri > Yükle" butonlarına tıklayın
+3. Kurulum otomatik olarak tamamlanacak:
+   • Python otomatik yüklenecek (internet bağlantısı gerekli)
+   • Gerekli modüller otomatik kurulacak
+   • Masaüstünde kısayol oluşturulacak
+   • Program otomatik başlayacak
+
+⚠️ ÖNEMLİ: İlk kurulumda biraz zaman alabilir (2-5 dakika)
+   Python ve modüllerin yüklenmesi için bekleyin.
+
+💡 KURULUM HAKKINDA BİLGİLER
+═══════════════════════════════════════════════════════════════
+
+✅ KURULUM DOSYASI: YouTube_Mezat_Yardimcisi_Setup_v2.exe
+   • Dosya boyutu: ~30 MB
+   • İndirme süresi: ~1 dakika (normal internet hızında)
+   • Kurulum süresi: ~2-5 dakika (ilk kurulum)
+
+✅ SİSTEM GEREKSİNİMLERİ:
+   • Windows 10/11 (64-bit önerilen)
+   • 4 GB RAM (8 GB önerilen)
+   • 500 MB boş disk alanı
+   • İnternet bağlantısı (kurulum için)
+
+✅ GÜVENLİK:
+   • Kurulum dosyası güvenlidir
+   • Windows Defender veya antivirüs uyarı verebilir (normal)
+   • Güvenlik uyarılarında "Yine de çalıştır" seçeneğini seçin
+   • Yönetici izni isteyecektir (izin verin)
+
+🔧 KURULUM SORUNLARI VE ÇÖZÜMLERİ
+═══════════════════════════════════════════════════════════════
+
+SORUN: "Windows bu uygulamayı korudu" uyarısı
+ÇÖZÜM: "Daha fazla bilgi" > "Yine de çalıştır" seçeneklerine tıklayın
+
+SORUN: "Python yüklenemedi" hatası
+ÇÖZÜM: 
+• İnternet bağlantınızı kontrol edin
+• Yönetici olarak çalıştırın (sağ tık > Yönetici olarak çalıştır)
+• Windows güncellemelerinizi kontrol edin
+
+SORUN: "Program başlamıyor" hatası
+ÇÖZÜM:
+• Masaüstündeki kısayola sağ tık > Özellikler
+• "Hedef" kısmında yolu kontrol edin
+• "Yönetici olarak çalıştır" seçeneğini işaretleyin
+• Kurulumu tekrar yapın
+
+SORUN: "Modüller yüklenemedi" hatası
+ÇÖZÜM:
+• İnternet bağlantınızı kontrol edin
+• Firewall ayarlarınızı kontrol edin
+• Kurulumu tekrar başlatın
+
+📱 İLETİŞİM VE DESTEK
+═══════════════════════════════════════════════════════════════
+
+Kurulum sırasında sorun yaşarsanız:
+• Ekran görüntüsü alın
+• Hata mesajını not edin
+• Destek ekibimizle iletişime geçin
+
+═══════════════════════════════════════════════════════════════
+© 2024 Mezat Yazılım - Başarılı mezatlar dileriz! 🎯
+═══════════════════════════════════════════════════════════════
+
+

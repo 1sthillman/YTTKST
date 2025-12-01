@@ -1,0 +1,45 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║         🎯 YouTube Mezat Yardımcısı v2.0 🎯                ║
+║                                                              ║
+║                 BAŞLATICI TALİMATLARI                        ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+📌 CMD PENCERE SORUNU ÇÖZÜLDÜ!
+═══════════════════════════════════════════════════════════════
+
+Programı başlatmak için aşağıdaki dosyalardan BİRİNE çift tıklayın:
+
+1️⃣ "YouTube_Mezat_Yardimcisi_Baslat.vbs"
+   • EN İYİ SEÇENEK
+   • CMD penceresi göstermez
+   • Doğrudan program açılır
+
+2️⃣ "YouTube_Mezat_Yardimcisi_Baslat_Pythonw.bat"
+   • Alternatif çözüm
+   • CMD penceresi göstermez
+   • Doğrudan program açılır
+
+3️⃣ "YouTube_Mezat_Yardimcisi.lnk"
+   • Kısayol dosyası
+   • Bazı sistemlerde çalışmayabilir
+   • Masaüstüne kopyalayabilirsiniz
+
+4️⃣ "YouTube_Mezat_Yardimcisi.exe" (varsa)
+   • Bağımsız çalıştırılabilir dosya
+   • Python gerektirmez
+   • Doğrudan çift tıklayarak çalıştırın
+
+⚠️ ESKİ DOSYALARI KULLANMAYIN:
+   • "mezaxx.py" dosyasını doğrudan çalıştırmayın
+   • "YouTube_Mezat_Yardimcisi_BASLAT.bat" dosyasını kullanmayın
+
+🔧 SORUN YAŞARSANIZ:
+   • Tüm başlatıcıları deneyin
+   • Python'un kurulu olduğundan emin olun
+   • Dosyaların aynı klasörde olduğunu kontrol edin
+
+═══════════════════════════════════════════════════════════════
+© 2024 Mezat Yazılım - Başarılı mezatlar dileriz! 🎯
+═══════════════════════════════════════════════════════════════

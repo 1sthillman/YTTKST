@@ -1,0 +1,56 @@
+## YOUTUBE MEZAT YARDIMCISI - PAKETLEME TALIMATLARI
+
+YouTube Mezat Yardımcısı programını tek bir çalıştırılabilir dosya (.exe) halinde paketlemek için aşağıdaki adımları izleyin:
+
+### HAZIRLIK ADIMLARI
+
+1. Python 3.8 veya daha yeni bir sürüm bilgisayarınızda kurulu olmalıdır.
+   - Python yoksa https://www.python.org/downloads/ adresinden indirebilirsiniz
+   - Kurulum sırasında "Add Python to PATH" seçeneğini işaretlediğinizden emin olun
+
+### KOLAY PAKETLEME (ÖNERİLEN YÖNTEM)
+
+1. "kontrol_ve_paketleme.bat" dosyasını çalıştırın.
+   - Bu script otomatik olarak gerekli modüllerin kurulumunu kontrol edecek
+   - Eksik modülleri otomatik olarak yükleyecek
+   - PyInstaller ile paketleme işlemini yapacak
+
+2. Script bittiğinde, "dist" klasöründe "YouTube Mezat Yardimcisi.exe" dosyasını bulacaksınız.
+
+### MANUEL PAKETLEME (ALTERNATİF YÖNTEM)
+
+Bu yöntemi sadece otomatik paketleme çalışmazsa kullanın:
+
+1. Command Prompt (Komut İstemi) açın
+2. Bu klasöre gelin: cd /d "klasör_yolu"
+3. Gerekli modülleri yükleyin: pip install -r requirements.txt
+4. PyInstaller'ı yükleyin: pip install pyinstaller
+5. Paketleme işlemi yapın: pyinstaller mezatyardimcisi.spec
+
+### SORUN GİDERME
+
+Paketleme işlemi sırasında hata alırsanız:
+
+1. Python'un PATH'e eklendiğinden emin olun
+   - Komut isteminde "python --version" yazarak kontrol edin
+   - Çalışmazsa Python kurulumunu tekrarlayın ve "Add Python to PATH" seçeneğini işaretleyin
+
+2. Modül yükleme hatası alırsanız:
+   - pip install --upgrade pip
+   - pip install customtkinter==5.2.0 pillow==10.0.0 requests==2.31.0 chat-downloader==0.2.7 pyinstaller==6.0.0
+   - Windows için: pip install pywin32==306
+
+3. PyInstaller hataları için:
+   - Komut istemini yönetici olarak çalıştırın
+   - Python kurulumunu ve PyInstaller kurulumunu tekrarlayın
+
+### SON KULLANICIYA DAĞITIM
+
+Paketleme işlemi tamamlandıktan sonra:
+
+1. "dist" klasöründeki "YouTube Mezat Yardimcisi.exe" dosyasını
+2. Program için gerekli olan diğer dosyalarla birlikte (LOGO.png, license_codes.json, vb.)
+3. kurulum.bat ve KURULUM_KILAVUZU.txt dosyaları ile birlikte
+4. ZIP formatında arşivleyin ve kullanıcılara dağıtın
+
+Kullanıcılar sadece ZIP dosyasını açıp içindeki kurulum.bat dosyasını çalıştırarak programı kurabilecekler.

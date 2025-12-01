@@ -1,0 +1,142 @@
+╔═══════════════════════════════════════════════════════════════╗
+║              YouTube Mezat Yardımcısı v2.0                   ║
+║                    KURULUM KILAVUZU                          ║
+╚═══════════════════════════════════════════════════════════════╝
+
+🎯 HIZLI BAŞLANGIÇ
+==================
+1. KURULUM.bat dosyasını SAĞ TIK → "Yönetici olarak çalıştır"
+2. Kurulum bitince "YouTube_Mezat_Yardimcisi_BASLAT.bat" ile başlatın
+3. YouTube canlı yayın URL'sini yapıştırın
+4. "Başlat" butonuna basın
+5. Mezat ayarlarını yapın ve mezatı başlatın
+
+🔧 DETAYLI KURULUM
+==================
+
+ADIM 1: GEREKSİNİMLER
+---------------------
+✅ Windows 10/11 (64-bit önerilen)
+✅ Python 3.8 veya üzeri (otomatik yüklenir)
+✅ İnternet bağlantısı
+✅ Yönetici yetkileri
+
+ADIM 2: KURULUM
+---------------
+1. ZIP dosyasını bilgisayarınızda bir klasöre çıkarın
+2. KURULUM.bat dosyasını bulun
+3. SAĞ TIK → "Yönetici olarak çalıştır" seçin
+4. Kurulum otomatik olarak tamamlanacak
+
+ADIM 3: PROGRAM BAŞLATMA
+------------------------
+1. "YouTube_Mezat_Yardimcisi_BASLAT.bat" dosyasını çalıştırın
+2. İlk açılışta lisans kodunuzu girin
+3. YouTube kanal URL'nizi girin
+4. Program hazır!
+
+🎮 KULLANIM KILAVUZU
+====================
+
+YOUTUBE CHAT BAĞLANTISI
+-----------------------
+1. YouTube canlı yayın URL'sini kopyalayın
+   Örnek: https://www.youtube.com/watch?v=VIDEO_ID
+2. "YouTube:" kutusuna yapıştırın
+3. "Başlat" butonuna basın
+4. Chat mesajları gelmeye başlayacak
+
+MEZAT AYARLARI
+--------------
+1. Ürün Adı: Satılacak ürünün ismini yazın
+2. Mezat Modu seçin:
+   • Sabit Fiyat: Belirli bir fiyata satış
+   • Sabit Ürün: Ürün adı yazıldığında satış
+   • En Yüksek Teklif: Açık artırma
+
+3. Hedef fiyat ve stok adedini girin
+4. "BAŞLAT" butonuna basın
+
+ÖDEME YAPANLAR LİSTESİ
+----------------------
+1. Chat'te "+" butonuna basarak kullanıcı ekleyin
+2. "Yönet" butonundan detay bilgileri girin
+3. Sadece listedeki kullanıcıların teklifleri kabul edilir
+
+🔊 SES AYARLARI
+===============
+• Ayarlar → Ses Efektleri açık/kapalı
+• İki tema: Fight veya Money
+• Her teklif için farklı ses efekti
+
+🛠️ SORUN GİDERME
+=================
+
+PROGRAM AÇILMIYOR
+-----------------
+❌ Problem: Program başlamıyor
+✅ Çözüm: 
+   - KURULUM.bat'ı tekrar çalıştırın
+   - Python yüklü mü kontrol edin
+   - Yönetici yetkisiyle çalıştırın
+
+CHAT BAĞLANMIYOR
+----------------
+❌ Problem: YouTube chat'e bağlanmıyor
+✅ Çözüm:
+   - URL'nin doğru olduğundan emin olun
+   - Canlı yayın aktif mi kontrol edin
+   - İnternet bağlantınızı test edin
+   - Firewall/Antivirus ayarlarını kontrol edin
+
+SES ÇALMIYOR
+------------
+❌ Problem: Teklif sesleri çalmıyor
+✅ Çözüm:
+   - Ayarlar → Ses Efektleri açık mı?
+   - sound klasörü mevcut mu?
+   - Windows ses ayarları kontrol edin
+
+TEKLİFLER GELMİYOR
+------------------
+❌ Problem: Chat mesajları teklif olarak algılanmıyor
+✅ Çözüm:
+   - Kullanıcıları "Ödeme Yapanlar" listesine ekleyin
+   - Mezat modunu doğru seçin
+   - Hedef fiyatı doğru girin
+
+🔐 LİSANS VE GÜVENLİK
+=====================
+• Her bilgisayar için ayrı lisans kodu gerekir
+• Lisans kodu YouTube kanalınıza özeldir
+• Program güvenli, kişisel bilgi toplamaz
+• Sadece chat mesajlarını analiz eder
+
+📞 DESTEK
+=========
+Sorun yaşıyorsanız:
+1. mezat.log dosyasını kontrol edin
+2. Hata mesajını tam olarak kaydedin
+3. Hangi adımda sorun olduğunu belirtin
+4. Destek ekibiyle iletişime geçin
+
+💡 İPUÇLARI
+===========
+• Program her zaman yönetici olarak çalıştırın
+• Canlı yayın başlamadan önce programı hazırlayın
+• Test amaçlı kendi kanalınızda deneyin
+• Düzenli olarak program güncellemelerini kontrol edin
+
+📝 SÜRÜM NOTLARI v2.0
+=====================
+✅ Basitleştirilmiş YouTube chat bağlantısı
+✅ Daha hızlı ve güvenilir bağlantı
+✅ Geliştirilmiş hata yönetimi
+✅ Otomatik kurulum sistemi
+✅ Profesyonel paketleme
+✅ Detaylı kullanım kılavuzu
+
+═══════════════════════════════════════════════════════════════
+© 2024 Mezat Yazılım - Tüm hakları saklıdır.
+Başarılı mezatlar dileriz! 🎯
+═══════════════════════════════════════════════════════════════

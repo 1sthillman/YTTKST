@@ -1,0 +1,18 @@
+MEZAXX - YouTube Mezat Yardımcısı
+Lisans Sözleşmesi
+
+© 2025 MEZAXX Team. Tüm hakları saklıdır.
+
+Bu yazılım, yalnızca lisanslı kullanıcılar tarafından kullanılabilir.
+
+KULLANIM KOŞULLARI:
+1. Bu yazılım, ticari amaçlarla YouTube canlı yayın mezatları için tasarlanmıştır.
+2. Yazılımın kaynak koduna erişim yasaktır.
+3. Yazılımı tersine mühendislik yapmak yasaktır.
+4. Yazılımı kopyalamak veya dağıtmak yasaktır.
+5. Yazılım "OLDUĞU GİBİ" sağlanır, hiçbir garanti verilmez.
+
+DESTEK:
+Teknik destek ve lisans bilgileri için iletişime geçin.
+
+Bu sözleşmeyi kabul ederek yazılımı kullanmayı kabul ediyorsunuz.

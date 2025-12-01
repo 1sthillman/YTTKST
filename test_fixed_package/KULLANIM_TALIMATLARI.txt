@@ -1,0 +1,44 @@
+
+YouTube Mezat Yardimcisi - KULLANIM TALIMATLARI:
+
+1. YouTube_Mezat_Yardimcisi.exe dosyasina cift tiklayarak programi baslatin.
+
+2. Program basladiginda YouTube kanal URL'nizi ve lisans kodunuzu girerek giris yapin.
+   - YouTube kanal URL'si: https://www.youtube.com/@hüseyin_usta_mezat
+   - Lisans kodu: YMY-2024-J3K6-L8M2
+
+3. Programa ilk kez giris yaptiktan sonra, kullanici bilgileriniz yerel olarak kaydedilecektir.
+
+4. Sistemi kullanirken internet baglantinizin aktif oldugundan emin olun.
+
+5. Programi normal sekilde baslatmak icin kisayol olusturabilirsiniz:
+   - YouTube_Mezat_Yardimcisi.exe dosyasina sag tiklayin
+   - "Masaustune kisayol olustur" secenegini tiklayin
+
+OZELLIKLER:
+
+1. YouTube Canli Yayin Takibi:
+   - Canli yayin URL'sini girin ve "Baslat" butonuna tiklayin
+   - Program otomatik olarak chat mesajlarini takip edecektir
+
+2. Teklif Takibi:
+   - Program chat mesajlarindaki teklifleri otomatik olarak tespit eder
+   - Teklifler listelenir ve en yuksek teklif gosterilir
+
+3. Yazici Ayarlari:
+   - Farkli yazici tipleri icin destek (Standart, Thermal, Etiket)
+   - Kagit boyutlari ve kenar bosluklari ayarlari
+   - Yazi tipi ve boyutu ayarlari
+
+4. Odeme Yapan Kullanicilar:
+   - Odeme yapan kullanicilarin bilgilerini kaydedebilirsiniz
+   - Kullanici bilgileri hem yerel hem de Supabase veritabaninda saklanir
+
+Onemli Notlar:
+- Bu program, YouTube canli yayinlarinizdaki mezat katilimcilarini takip etmek icin tasarlanmistir.
+- Lisans kodunuz gecerli oldugu surece programi kullanabilirsiniz.
+- Kullanim sirasinda herhangi bir sorun yasarsaniz, program yoneticinizle iletisime gecin.
+
+Iletisim:
+Telefon: 05439269670
+E-posta: sthillmanbusiness@gmail.com

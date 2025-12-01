@@ -1,0 +1,49 @@
+======== YOUTUBE MEZAT YARDIMCISI - KURULUM TALIMATLARI ========
+
+Değerli Müşterimiz,
+
+YouTube Mezat Yardımcısı programını kullanabilmeniz için aşağıdaki adımları takip etmeniz yeterlidir:
+
+1. Size gönderilen "YOUTUBE_MEZAT_YARDIMCISI_FINAL_EXE_27092025.zip" dosyasını bilgisayarınıza indirin.
+
+2. ZIP dosyasını sağ tıklayarak "Buraya Çıkart" veya "Tümünü Çıkart" seçeneği ile dosyaları çıkartın.
+
+3. Çıkan klasör içindeki "YouTube_Mezat_Yardimcisi.exe" dosyasına çift tıklayarak programı başlatın.
+
+4. Program açıldığında, aşağıdaki bilgileri girerek giriş yapın:
+   - YouTube kanal URL'si: Size verilen YouTube kanal URL'sini girin
+   - Lisans kodu: Size verilen lisans kodunu girin
+
+GERÇEK LİSANS KODLARI:
+
+Aşağıdaki lisans kodları ve kanal bilgileri, programın kullanımı için geçerlidir:
+
+1. Uzmanbicak:
+   - Kanal URL: https://www.youtube.com/@Uzmanbicak
+   - Lisans Kodu: YMY-2024-W3X7-Y2Z8
+
+2. Karavil_bıçak:
+   - Kanal URL: https://www.youtube.com/@Karavil_bıçak
+   - Lisans Kodu: YMY-2024-J2K7-L4M9
+
+3. Hüseyin_usta_mezat:
+   - Kanal URL: https://www.youtube.com/@hüseyin_usta_mezat
+   - Lisans Kodu: YMY-2024-J3K6-L8M2
+
+TEST KODLARI:
+
+Aşağıdaki test kodlarını da kullanarak programa giriş yapabilirsiniz:
+- TEST456 (herhangi bir kanal ile kullanılabilir)
+- DEMO123 (herhangi bir kanal ile kullanılabilir)
+
+ÖNEMLİ NOTLAR:
+
+- Program klasörünü güvenli bir yere kopyalayın, içindeki dosyaları silmeyin veya değiştirmeyin.
+- Programı kullanırken internet bağlantınızın açık olduğundan emin olun.
+- Herhangi bir sorun yaşarsanız, lütfen bizimle iletişime geçin.
+
+İletişim:
+Telefon: 05439269670
+E-posta: sthillmanbusiness@gmail.com
+
+İyi çalışmalar dileriz!

@@ -1,0 +1,70 @@
+## YOUTUBE MEZAT YARDIMCISI - DERLEME TALİMATLARI
+
+Bu dosya, YouTube Mezat Yardımcısı programını derleyip, kapalı kutu olarak dağıtmak için gereken adımları içerir.
+
+### 1. HATA DÜZELTMESİ
+
+Mezaxx.py dosyasındaki NoneType hatası düzeltildi. Düzeltme aşağıdaki şekilde yapıldı:
+- `sys.stderr.write = lambda...` yerine `NullWriter` sınıfı oluşturuldu
+- `sys.stderr` değişkeni bu sınıfın bir örneği ile değiştirildi
+
+### 2. NUITKA İLE DERLEME (ÖNERİLEN)
+
+Nuitka, kaynak kodunu C seviyesinde derleyerek çok daha güvenli ve hızlı bir program elde etmenizi sağlar.
+
+Adımlar:
+
+1. `nuitka_build.bat` dosyasını çalıştırın
+   - Bu script gerekli kontrolleri yapacak
+   - Nuitka ve diğer bağımlılıkları otomatik yükleyecek
+   - Programı derleyecek
+
+2. Derleme tamamlandığında `YouTube Mezat Yardimcisi.exe` dosyası oluşacaktır
+   - Bu dosya bağımsız çalışır, Python gerektirmez
+   - Tüm bağımlılıklar içinde gömülüdür
+   - Kaynak kod içermez, deşifre edilmesi çok zordur
+
+### 3. KURULUM SİHİRBAZI OLUŞTURMA (NSIS)
+
+NSIS ile profesyonel bir kurulum sihirbazı oluşturabilirsiniz:
+
+1. NSIS programını yükleyin: https://nsis.sourceforge.io/Download
+
+2. `make_installer.bat` dosyasını çalıştırın
+   - Bu script NSIS'i kontrol edecek
+   - `installer.nsi` dosyasını kullanarak kurulum paketi oluşturacak
+   
+3. Derleme tamamlandığında `YouTube_Mezat_Yardimcisi_Setup.exe` kurulum dosyası oluşacaktır
+   - Bu dosya son kullanıcılara dağıtılabilir
+   - Programı otomatik olarak kurar
+   - Masaüstü kısayolları ve kaldırma seçenekleri içerir
+
+### 4. PAKETLEME DETAYLARI
+
+Nuitka derleme özellikleri:
+- `--standalone`: Bağımsız çalışabilen bir uygulama oluşturur
+- `--onefile`: Tüm dosyaları tek bir .exe içine paketler
+- `--windows-disable-console`: Komut istemini gizler
+- Tüm bağımlılıklar otomatik dahil edilir
+- Program ikonları, sürüm bilgileri ve şirket bilgileri eklenir
+
+NSIS kurulum özellikleri:
+- Profesyonel kurulum arayüzü
+- Program Files'a kurulum
+- Kısayol oluşturma
+- Kaldırma programı
+- Kullanıcı verilerini koruma seçeneği
+
+### 5. DAĞITIM ÖNERİLERİ
+
+Son kullanıcılara dağıtım yaparken:
+- Sadece `YouTube_Mezat_Yardimcisi_Setup.exe` dosyasını paylaşın
+- Lisans kodlarının güncel olduğundan emin olun (license_codes.json)
+- Oluşturulan .exe dosyasını virüs taramasından geçirin (bazı antivirüsler yanlış alarm verebilir)
+
+### 6. SORUN GİDERME
+
+Derleme sırasında hata alırsanız:
+1. Python 3.8 veya daha yeni sürüm kullandığınızdan emin olun
+2. Tüm bağımlılıkların kurulu olduğundan emin olun: `pip install customtkinter pillow requests chat-downloader nuitka`
+3. Gerekli dosyaların (LOGO.png, license_codes.json, vb.) mevcut olduğundan emin olun

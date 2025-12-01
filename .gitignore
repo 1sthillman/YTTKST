@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+mezat.log
+supabase_test.log
+exe_builder.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.backup
+*.backup*
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+temp_*
+
+# Sensitive data (DO NOT COMMIT)
+supabase_config.json
+auth_data.json
+license_codes.json
+license_usage.json
+paid_users.json
+settings.json
+
+# Build artifacts
+*.spec
+*.exe
+*.zip
+*.7z
+*.rar
+
+# Test files
+test_*.json
+test_*.py
+
+# Distribution packages
+SETUP_*/
+YOUTUBE_MEZAT_YARDIMCISI_*/
+FINAL_*/
