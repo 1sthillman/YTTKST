@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Mezat Yardımcısı - YTTKST</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        h3 {
+            color: #555;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #e74c3c;
+            font-size: 0.9em;
+        }
+        pre {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+        pre code {
+            background: none;
+            color: #ecf0f1;
+            padding: 0;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 5px 5px 5px 0;
+            font-weight: 500;
+        }
+        .feature-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1># YTTKST</h1>
+        <h1>YouTube Mezat Yardımcısı</h1>
+        
+        <p>Bu program YouTube canlı yayınlarında mezat düzenlemeye yardımcı olan, teklifleri toplayan ve yöneten bir uygulamadır.</p>
+
+        <div class="feature-box">
+            <h2>Özellikler</h2>
+            <ul>
+                <li><strong>YouTube Canlı Yayın Takibi:</strong> Canlı yayın URL'sini girin ve chat mesajlarını otomatik olarak takip edin</li>
+                <li><strong>Teklif Takibi:</strong> Program chat mesajlarındaki teklifleri otomatik olarak tespit eder ve en yüksek teklifi gösterir</li>
+                <li><strong>Yazıcı Ayarları:</strong> Farklı yazıcı tipleri için destek (Standart, Termal, Etiket)</li>
+                <li><strong>Müşteri Yönetimi:</strong> Ödeme yapan kullanıcıların bilgilerini kaydedin</li>
+                <li><strong>Supabase Entegrasyonu:</strong> Müşteri bilgileri otomatik olarak Supabase veritabanına kaydedilir</li>
+            </ul>
+        </div>
+
+        <h2>Dağıtım Hazırlığı</h2>
+        <p>Bu klasörde program dosyalarının yanı sıra dağıtım için hazırlanmış bazı dosyalar bulunmaktadır:</p>
+        <ul>
+            <li><code>paketleyici.bat</code> - Uygulamayı çalıştırılabilir .exe dosyası haline getirir</li>
+            <li><code>kurulum.bat</code> - Son kullanıcıların uygulamayı bilgisayarına kurmasını sağlar</li>
+            <li><code>mezatyardimcisi.spec</code> - PyInstaller için yapılandırma dosyası</li>
+            <li><code>KURULUM_KILAVUZU.txt</code> - Son kullanıcılar için kurulum kılavuzu</li>
+        </ul>
+
+        <h2>Dağıtım Adımları</h2>
+        <h3>1. Paketin Oluşturulması:</h3>
+        <ul>
+            <li><code>paketleyici.bat</code> dosyasını çalıştırarak uygulamayı .exe dosyasına dönüştürün</li>
+            <li>Bu işlem sonunda <code>dist</code> klasöründe <code>YouTube Mezat Yardimcisi.exe</code> dosyası oluşacaktır</li>
+        </ul>
+
+        <h3>2. Dağıtım için Dosyaları Hazırlama:</h3>
+        <ul>
+            <li><code>dist</code> klasöründeki <code>YouTube Mezat Yardimcisi.exe</code> dosyasını</li>
+            <li><code>LOGO.png</code>, <code>LICENSE.txt</code>, <code>license_codes.json</code>, <code>settings.json</code> dosyalarını</li>
+            <li><code>KURULUM_KILAVUZU.txt</code> ve <code>kurulum.bat</code> dosyalarını</li>
+            <li>ZIP formatında arşivleyin</li>
+        </ul>
+
+        <h3>3. Son Kullanıcıya Gönderme:</h3>
+        <ul>
+            <li>Oluşturduğunuz ZIP dosyasını son kullanıcıya gönderin</li>
+            <li>Kullanıcının ZIP dosyasını çıkarıp <code>kurulum.bat</code> dosyasını çalıştırması yeterlidir</li>
+        </ul>
+
+        <div class="highlight">
+            <h2>Güvenlik Notları</h2>
+            <ul>
+                <li>Program kaynak kodları .exe içerisinde gizlenmiş olacaktır</li>
+                <li>Son kullanıcılar sadece kurulumdan sonra oluşan çalıştırılabilir dosyaya sahip olacaktır</li>
+                <li>Lisans doğrulama sistemi, programın yetkisiz kişilerce veya farklı bilgisayarlarda kullanılmasını önler</li>
+            </ul>
+        </div>
+
+        <h2>Gerekli Dosyalar</h2>
+        <p>Dağıtımdan önce aşağıdaki dosyaların güncel olduğundan emin olun:</p>
+        <ul>
+            <li><code>license_codes.json</code> - Geçerli lisans kodlarının bulunduğu dosya</li>
+            <li><code>settings.json</code> - Varsayılan ayarların bulunduğu dosya</li>
+        </ul>
+
+        <h2>Teknik Bilgiler</h2>
+        <p><strong>Program;</strong> Windows 7, 8, 10 ve 11 işletim sistemlerinde çalışır. Kullanıcıların sadece ZIP dosyasını indirip kurulum sihirbazını çalıştırması yeterlidir.</p>
+
+        <h2>Kullanılan Teknolojiler</h2>
+        <span class="badge">Python</span>
+        <span class="badge">CustomTkinter</span>
+        <span class="badge">PyInstaller</span>
+        <span class="badge">Supabase</span>
+        <span class="badge">ChatDownloader</span>
+        <span class="badge">Pygame</span>
+
+        <div class="footer">
+            <p>© 2025 YouTube Mezat Yardımcısı - YTTKST</p>
+            <p>GitHub Repository: <a href="https://github.com/1sthillman/YTTKST" target="_blank">1sthillman/YTTKST</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
