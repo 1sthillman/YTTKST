@@ -76,3 +76,8 @@ test_*.py
 SETUP_*/
 YOUTUBE_MEZAT_YARDIMCISI_*/
 FINAL_*/
+test_fixed_package/
+test_package/
+test_exe_package/
+temp_package/
+backup_files/
